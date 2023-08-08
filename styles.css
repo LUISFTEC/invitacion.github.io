@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #cd9699;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+h1 {
+  color: #a47559;
+  font-size: 90px;
+  font-family: "Pattaya", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+  margin: -10px 0;
+}
+
+p.subheading {
+  color: #cd9699;
+  text-align: center;
+  font-size: 80px;
+  font-family: "Playfair Display", serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+p.invitation {
+  font-size: 40px;
+  color: #000000;
+  font-family: "Dai Banna SIL", serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 40px;
+}
+.concava {
+  background-image: url(img/concava.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.details-box {
+  font-size: 30px;
+  font-family: "Noto Serif Vithkuqi", serif;
+}
+
+.location {
+  text-align: center;
+  color: #c69ba2;
+  font-size: 40px;
+  font-family: "Crimson Text", serif;
+}
+p.large-text {
+  color: #a47559;
+  font-size: 100px;
+  text-align: center;
+  font-family: "Kalam", cursive;
+  margin: 30px 0;
+}
+.location p {
+  margin: -10px 0;
+}
+button {
+  background-color: #cd9699;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+button a {
+  color: #000000;
+  text-decoration: none;
+}
+.buttons {
+  text-align: center;
+}
+
+button:hover {
+  background-color: #af6165;
+}
+.btn1 {
+  font-size: 25px;
+  font-family: "Exo 2", sans-serif;
+}
+.btn2 {
+  font-size: 25px;
+  font-family: "Exo 2", sans-serif;
+}
+/* Estilos del contenedor principal */
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.card {
+    background-image: url(img/fondocaja.png); /* Cambiar 'ruta_de_la_imagen.jpg' por la ruta de tu imagen */
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
